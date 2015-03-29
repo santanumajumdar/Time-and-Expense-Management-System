@@ -1,0 +1,144 @@
+/*
+ * List section of the page
+ */
+
+.list {
+	float: left;
+	width: 100%;
+	border-style: solid none solid none;
+	border-color: green;
+	border-width: 1px;
+}
+
+.list th {
+	padding: 2px 12px 6px 0px;
+	background-color: #AC3;
+	color: #36C;
+	text-align: left;	/* Needed to specify for IE */
+	border-style: solid none solid none;
+	border-color: green;
+	border-width: 1px;
+}
+
+
+/*
+ * End of List section of the page
+ */
+
+
+/*
+ * Form related CSS.
+ */
+
+.form {
+	width: 100%;
+	font-size: 9pt;
+	vertical-align: top;
+}
+
+.form td {
+	margin: 0px;
+	border: 1px solid #98BF21;
+	padding: 5px 3px 5px 10px;
+	color: #000000;
+/*	align: left;	*/
+}
+
+.form td.side-status {
+	border: 0px;
+	padding: 0px 3px 5px 0px;
+	width: 250px;
+	vertical-align: top;
+}
+
+.form td.label_display {
+	text-align: right;
+	width: 100px;
+}
+
+.form td.field_display {
+	background-color: #FFF;
+}
+
+.form td.label_entry {
+	width: 100px;
+	border: 0px;
+}
+
+.form td.field_entry {
+	border: 0px;
+}
+
+.fieldLabel {
+	width: 100px;
+	border: 0px;
+	display: inline-table;
+}
+
+.matrixLabel {
+	width: 0px;
+	border: 0px;
+	display: inline-table;
+}
+
+.fieldEntry {
+	border: 0px;
+	display: inline-table;
+}
+
+/*
+ * End of Form related CSS.
+ */
+
+
+
+/*
+ * Start of SORTABLE CSS.
+ */
+.menu-list-div {
+	position: relative;
+	float: left;
+	width: 300px;
+}
+
+.menu-list-div .menu-heading-ui {
+	font-weight: bold;
+}
+
+.menu-list-div div.menu-list-ui {
+	height: 300px;
+	width: 300px;
+	border: 1px solid #ccc;
+	overflow: auto;
+}
+
+.menu-list-div div.delete-box-ui {
+	float: right;
+	background-color: #D66;
+	font-weight: bold;
+	border: solid 1px;
+	margin: 0 0 10px 0;
+	padding: 10px;
+}
+
+.program-list-div {
+	position: relative;
+	float: left;
+	width: 300px;
+	margin-left: 20px;
+}
+
+.program-list-div .program-heading-ui {
+	font-weight: bold;
+}
+
+.program-list-div div.program-list-ui {
+	height: 300px;
+	width: 300px;
+	border: 1px solid #ccc;
+	overflow: auto;
+}
+
+/*
+ * End of SORTABLE CSS.
+ */

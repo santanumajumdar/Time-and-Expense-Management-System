@@ -1,0 +1,33 @@
+/*
+ * Report related special CSS tags.
+*/
+
+body {
+	background-color: #FFF;
+}
+
+.report {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+.report td {
+	border: 1px solid #000000;
+	padding: 5px 5px 5px 5px;
+}
+
+.report td.noborder {
+	border-width: 0px;
+}
+
+p.breakhere {
+	page-break-before: always
+}
+
+.hide-document {
+	display: none;
+}
+
+/*
+ * End of Report related special CSS tags.
+*/

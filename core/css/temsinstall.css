@@ -1,0 +1,81 @@
+
+/*
+ * Installation related style class 
+ */
+
+.section-heading-layer {
+	font-family: Verdana, Tahoma, Arial, Helvetica;
+	font-size: 1em;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: #FFFF00;
+	background-color: #9B3;
+	padding: 3px 0 4px 5px;
+}
+
+
+.installation-status-table {
+	width: 100%;
+	font-size: 9pt;
+	vertical-align: top;
+}
+
+.config-error-in-box {
+	padding: 15px 0px 5px 0px;
+	font-size: 1.2em;
+	color: red;
+}
+
+.futher-error-analysis {
+	font-weight: bold;
+	padding: 10px 0px 5px 0px;
+}
+
+.form {
+	width: 100%;
+	font-size: 9pt;
+	vertical-align: top;
+	background-color: #DEC;
+}
+
+.form td {
+	margin: 0px;
+	border: 1px solid #98BF21;
+	padding: 5px 3px 5px 10px;
+	color: #000000;
+	align: left;
+}
+
+.form td.side-status {
+	border: 0px;
+	padding: 0px 3px 5px 0px;
+	width: 250px;
+	vertical-align: top;
+}
+
+.form td.label_display {
+	text-align: right;
+	width: 100px;
+}
+
+.form td.field_display {
+	background-color: #FFF;
+}
+
+.form td.label_entry {
+	width: 100px;
+	border: 0px;
+}
+
+.form td.field_entry {
+	border: 0px;
+}
+
+.button {
+	padding: 3px 0px 3px 5px;
+}
+
+
+/*
+ * End of Installation related style class 
+ */

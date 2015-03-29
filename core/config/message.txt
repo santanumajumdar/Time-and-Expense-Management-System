@@ -1,0 +1,33 @@
+<h3>Welcome to TEMS</h3>
+
+<p>An open source "Time and Expense Management System", powered by Initechs, LLC.</p>
+<p>TEMS keeps track of times entries and expenses reports of employees and contractors by projects and accounts, automatically generates invoices with details. You can print weekly time cards and expense reports by employee, project, and account. It allows you to review and approve times & expenses before generating invoices.</p>
+<p>Authors: Kallol Nandi and Mahantesh Gaddekar.</p>
+<p>Please visit <a href="http://temsonline.com">http://temsonline.com</a> for latest updates.</p>
+
+<hr>
+
+<p><b><u>How to access the application in the demo site?</u></b></p>
+<p>Click on the `Register` button, that is on the top-right corner of the screen.</p>
+<p>It will guide you through the rest of the process.</p>
+<p>Once you will have your user id registered, you will get all access to the entire application.</p>
+
+<hr>
+
+<p><b><u>How to access the application after you install on your local server or a hosted server?</u></b></p>
+<p>Click on the `Login` button, and use <b>admin</b> for both Login and Password.</p>
+<p><b>Note:</b> When you will download the software from the website, this `self registration` function will not be there, so no unauthorized person can access your application by this self registration method.</p>
+
+<hr>
+
+<p>After testing TEMS, every user wants to change this page. This page is very important place to anounce company policies regaring time and expense entries, or anything else you have in your mind.</p>
+
+<p><b><u>Before jumping to make changes, please take a note of it.</u></b></p>
+<p>This file exists in <b>custom/config</b> directory, and the name of this file is <b>message.txt</b>.</p>
+<p>You may write in plain text. You can use html tags as well for a  better clarity.</p>
+
+<hr>
+
+<p><b><u>For application issues and advance help:</u></b></p>
+<p>If you want to do any complicated thing here, contact us at <a mailto="contact@temsonline.com"> contact@temsonline.com </a> for help.</p>
+<p>For application issues and features etc, visit <a href="http://temsonline.com/content/resources"> http://temsonline.com/content/resources </a>.</p>

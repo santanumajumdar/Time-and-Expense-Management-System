@@ -1,0 +1,266 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: .75em;
+	color: #404040;
+	text-align: left;
+	background-color: #DEC;
+}
+p {
+	margin: 0px;
+	padding-top: .5em;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	Color: black;
+}
+
+table {
+	border-collapse: collapse;
+	padding: 0px;
+	vertical-align: top;
+}
+
+a:link {
+	text-decoration: none;
+	color: #3366cc;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #3366cc;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #3366ff;
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: underline;
+	color: #3366ff;
+}
+
+li#active a {
+	background-color: #FFF;
+	color: teal;
+}
+
+#Whole-Page-Container {
+	position: absolute; 
+	left: 0px; 
+	top: 0px;
+	width: 100%;
+}
+
+/*
+ * Top banner related CSS
+ */
+
+#Page-Header {
+	max-height: 40px;
+	background-color: #ACC;
+	border: 1px solid green;
+}
+
+#Page-Header .logo {
+	max-width: 120px;
+	max-height: 40px;
+	border: 0px;
+	vertical-align: top;
+}
+
+#Page-Header .app-name {
+    padding: 0px 0px 0px 100px;
+    font-family: Arial, Helvetica;
+	font-size: 1.5em;
+	color: #331133;
+	line-height: 40px;
+}
+
+#Page-Header .right-link {
+    padding: 10px 10px 0px 0px;
+	float: right;
+}
+
+#Page-Header .app-logo {
+    padding: 0px 10px 0px 0px;
+	float: right;
+}
+
+#Page-Header .register a {
+	padding: 0px 0px 0px 20px;
+	vertical-align: middle;
+	color: red;
+	text-decoration: blink;
+}
+
+/*
+ * End of the Top banner related CSS
+ */
+
+/* 
+ * Page footer CSS
+ */
+
+.Page-Footer {
+	clear: both;
+	border: 1px solid #008000;
+	padding: 1px 0px 5px 5px;
+	background-color: #CCC;
+}
+.Page-Footer .On-Right {
+	display: inline;
+	padding: 0px 5px 0px 150px;
+	text-align: right;
+}
+
+/* 
+ * End of Page footer CSS
+ */
+
+
+/* 
+ * Main Section CSS
+ */
+
+#Page-Content {
+	overflow: hidden;
+	width: 100%;
+	float: left;
+}
+
+/*
+ * Side Menu inside the Page-UI-Container 
+ */
+
+#side-menu {
+	float: left;
+	width: 170px;
+	height: 100%;
+	border-style: none solid none none;
+	border-color: green;
+	border-width: 1px;
+}
+
+#side-menu ul, li{
+	list-style-type: none;
+	padding: 0px;
+	margin: 1px;
+}
+
+/*
+ * End of Side Menu inside the Page-UI-Container
+ */
+
+#UI-content {
+	overflow: hidden;
+	border-color: green;
+	padding: 0 0 0 3px;
+	border-style: none none none solid;
+	border-color: green;
+	border-width: 1px
+}
+
+
+#UI-content div.option-heading {
+	font-family: Verdana, Tahoma, Arial, Helvetica;
+	font-size: 12pt;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: #FFFF00;
+	background-color: #9B3;
+	padding: 3px 0px 4px 5px;
+}
+
+
+#UI-content .Advance-Search-Button-Label, #UI-content .create-button-on-heading-band {
+	font-family: Verdana, Tahoma, Arial, Helvetica;
+	font-size: 0.75em;
+	float: right;
+}
+
+
+#UI-content div.end-of-the-form-error-message {
+	color: #FF0000;
+	padding: 5px;
+	background-color: yellow;
+	width: 100%;
+	display: inline-block;
+}
+
+#UI-content div#Error-Msg {
+	color: #FF0000;
+	display: inline-block;
+}
+
+#UI-content div#Successful-Msg {
+	color: #3D3;
+	display: inline-block;
+}
+
+
+/*
+ * Error related CSS.
+*/
+
+.in-line-error-message {
+	color: #FF0000;
+}
+
+
+
+.highlight-error-field {
+	background-color: #FF0;
+}
+
+.end-of-form-notes {
+	background-color: #DEC;
+	position: relative;
+	top: 0px;
+	padding-left: 5px;
+}
+
+.error_field {
+	background-color: yellow;
+	border: 1px solid #FA6;
+}
+
+
+/*
+ * End of Error related CSS.
+*/
+
+
+
+/*
+ * Misc Classes.
+ */
+
+.hideme {
+	visibility: hidden;
+}
+
+.search-field-label {
+	width: 80px;
+	border: 0px;
+	display: inline-table;
+}
+
+.Advance-Search-Button-Label-Activated {
+	background: url(images/ui-bg_highlight-soft_lime_1x100.png) 50% 50% repeat-x;
+}
+
+.Add-Button-Footer {
+	float: left;
+	clear: both;
+}
+
+/*
+ * End of Misc Classes.
+ */
+

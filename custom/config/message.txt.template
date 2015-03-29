@@ -1,0 +1,21 @@
+<h3>Welcome to TEMS</h3>
+An open source "Time and Expense Management System", powered by Initechs, LLC.
+TEMS keeps track of times entries and expenses reports of employees and contractors by projects and accounts, automatically generates invoices with details. You can print weekly time cards and expense reports by employee, project, and account. It allows you to review and approve times & expenses before generating invoices.
+Authors: Kallol Nandi and Mahantesh Gaddekar.
+Please visit <a href="http://temsonline.com">http://temsonline.com</a> for latest updates.
+
+<hr>
+<b><u>Are you upgrading from previous version?</u></b>
+To upgrade the existing old database to the current version, click on <a href="install/upgrade.php">Database upgrade</a>
+Upgrade process will not modify your existing database. It will copy the data from the old database to the new database and modify the them as required by this new version.
+We recommend that you keep your old database and test newer version before using it for your production.  
+<hr>
+After testing TEMS, every user wants to change this page. This page is very important place to anounce company policies regaring time and expense entries, or anything else you have in your mind.
+
+<b><u>Before jumping to make changes, please take a note of it.</u></b>
+This file exists in <b>userdata</b> directory, and the name of this file is <b>message.txt</b>.
+You may write in plain text. You can use html tags as well for clarity, but not needed.
+
+<b><u>For application issues and advance help:</u></b>
+If you want to do any complicated thing here, contact us at <a mailto="contact@temsonline.com"> contact@temsonline.com </a> for help.
+For application issues and features etc, visit <a href="http://temsonline.com/content/resources"> http://temsonline.com/content/resources <a>.
